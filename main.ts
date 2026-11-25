@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Glad to help: paste your salary in the team chat and ask who makes less; I'll rank the replies.";
+  "Glad to: paste Friday's paycheck in the team chat, ask who makes less, and I'll rank them by name.";
 
 const chars = [...LINE].length;
 if (chars < 1 || chars > 140 || LINE.trim().length === 0) {
